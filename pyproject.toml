@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "1.0.0"
+description = ""
+authors = ["Vadim Frolov <fralik@gmail.com>"]
+
+[[tool.poetry.source]]
+name = "private_repo_name"
+url = "https://<organization>.pkgs.visualstudio.com/<guid>/_packaging/<feed>/pypi/simple"
+
+[tool.poetry.dependencies]
+python = "~3.7"
+private-package = "~0.1.0"
+
+[tool.poetry.dev-dependencies]

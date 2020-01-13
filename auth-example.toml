@@ -1,0 +1,4 @@
+[http-basic]
+[http-basic.private_repo_name]
+password = "<your PAT>"
+username = "user"
